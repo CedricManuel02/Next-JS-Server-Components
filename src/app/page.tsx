@@ -5,7 +5,6 @@ import { Product } from './interface/types'
 
 export default async function page() {
     const product : Product[] = await getData() 
-    
     return (
         <div className="h-screen w-full flex flex-col items-center justify-center bg-slate-100">
           <div className="bg-white p-5 rounded-md shadow">
